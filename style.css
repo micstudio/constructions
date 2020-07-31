@@ -1,3 +1,8 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
 * {
   outline: none !important;
 }
@@ -466,13 +471,13 @@ footer .footer__btn {
 .anime {
   z-index: 4;
   position: absolute;
-  top: -47px;
-  right: 0;
+  top: -42px;
+  right: 5px;
 }
 
 #nav-icon2 {
   width: 60px;
-  height: 45px;
+  height: 35px;
   position: relative;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
@@ -485,7 +490,7 @@ footer .footer__btn {
 #nav-icon2 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 6px;
   width: 50%;
   background: #d3531a;
   opacity: 1;
@@ -510,11 +515,11 @@ footer .footer__btn {
 }
 
 #nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
-  top: 18px;
+  top: 12px;
 }
 
 #nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
-  top: 36px;
+  top: 24px;
 }
 
 #nav-icon2.open span:nth-child(1), #nav-icon2.open span:nth-child(6) {
@@ -560,10 +565,17 @@ footer .footer__btn {
 @media (max-width: 576px) {
   .slider__title {
     width: 300px !important;
+    font-size: 3rem !important;
     position: absolute;
     top: 150px !important;
     left: 110px !important;
     margin: 0 !important;
+  }
+}
+
+@media (max-width: 676px) {
+  .slider__title {
+    font-size: 3rem !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
